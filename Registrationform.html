@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<title>
+Sign up
+</title>
+<style>
+
+div.top
+{color:white;
+background-color:rgba(0,0,0,0.5);
+width:50%;
+margin:auto;
+padding:5px;
+text-align:center;
+font-size:15px;
+
+}
+div.bottom{
+color:white;
+background-color:rgba(0,0,0,0.5);
+width:50%;
+margin:auto;
+padding:5px;
+text-align:center;
+font-size:50px;
+}
+div.middle{
+background-color:pink;
+margin:0px 328.49px;
+padding:10.5px;
+}
+input:focus{background-color:rgba(255,255,255,0.8)}
+
+</style>
+</head>
+<body>
+
+<div class="top">
+<h1>sign up</h1>
+</div>
+<div class="middle">
+<form method="post"  autocomplete"on" >
+<b>Name:<b>
+<input type="text" name="Firstname" autofocus required placeholder="  Firstname" style="border-radius:5px;margin-left:68px;">
+<input type="text" name="Middlename" autofocus required placeholder="  Middle name" style="border-radius:5px;margin-left:5px">
+<input type="text" name="lastname" autofocus required placeholder="  Last name" style="border-radius:5px;margin-left:5px"><br><br><br>
+
+<b>Father's name:  
+<input type="text" name="fathersname" autofocus required  style="border-radius:5px;margin-left:9px;" placeholder="  Father's name"><br><br><br>
+<b>E-mail</b>:
+<input type="email" name="email" placeholder="  abc@gmail.com" autofocus required style="border-radius:5px;margin-left:61px"><br><br><br>
+<b>Mobile No</b>:
+<input type="tel" name="telephone" placeholder="  Must be of 10 digit"  maxlength="10" autofocus required style="border-radius:5px;margin-left:35px"><br><br><br>
+<b>Date of Birth</b>:
+<input type="date" name="birthday" autofocus required style="border-radius:5px;margin-left:16px;"><br><br><br>
+<b>Gender:</b>
+<input type="radio" name="gender" value="male" style="margin-left:55px" required ><b>Male</b>
+<input type="radio" name="gender" value="female" style="margin-left:50px" required ><b>Female</b>
+<input type="radio" name="gender" value="other" style="margin-left:50px" required ><b>others</b><br><br><br>
+<b>Address:</b>
+<input type="text" name="Plot No." autofocus required placeholder="  Plot No" style="border-radius:5px;margin-left:49px; " autofocus required>
+<input type="text" name="District" autofocus required placeholder=" District" style="border-radius:5px;margin-left:5px; " autofocus required><br><br><br>
+<b>State:</b>
+<input list="state" name="state" style="border-radius:5px;margin-left:68px" placeholder="  state" autofocus required>
+<datalist id="state">
+<option value="Bihar">
+<option value="Jharkhand">
+<option value="U.P">
+<option value="M.P">
+<option value="Gujarat">
+<option value="Tamil-Nadu">
+<option value="Harayana">
+</datalist><br><br><br>
+<b>Country:</b>
+<input list="country" name="country" style="border-radius:5px;margin-left:42px" placeholder="  Counrty" autofocus required>
+<datalist id="country">
+<option value="India">
+<option value="U.S">
+<option value="U.K">
+<option value="Nepal">
+<option value="Bhutan">
+<option value="Saudi">
+</datalist>
+<br><br><br>
+<b>Username:<b>
+<input type="text" name="username" style="border-radius:5px;margin-left:30px" placeholder="  Username" autofocus require><br><br><br>
+<b>Password:</b>
+<input type="password" name="password" style="border-radius:5px;margin-left:30px" placeholder="  Password" autofocus require><br><br><br>
+<input type="checkbox" name="tick the option" value="v1" style="margin-left:150px;" required> <B>I AGREE TO THE TERMS AND CONDITION<B>
+</div>
+<div class="bottom">
+<input type="submit" value="Submit" style="font-size:30px;color:rgb(255,0,0);">
+<input type="reset" value="Reset" style="font-size:30px;color:rgb(255,0,0);">
+</form>
+</div>
+</body>
+</html>
+
